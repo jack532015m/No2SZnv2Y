@@ -28,7 +28,6 @@
 ### Changes
 * Modified delete(key=None) to delete_every() to delete all documents ([Adrian Dankiv](https://github.com/adr-007))
 * Updated and unified codebase ([Adrian Dankiv](https://github.com/adr-007))
-
 ### Fixes
 * Fixed ListField(<ItemField>) for Union and Remove ([Adrian Dankiv](https://github.com/adr-007))
 * Fixed fireo.Increment for NumberField ([Adrian Dankiv](https://github.com/adr-007))
