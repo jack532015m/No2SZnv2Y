@@ -1,5 +1,7 @@
----
-# BasedOnStyle:  WebKit
+以下是优化后的代码片段：
+
+```cpp
+# BasedOnStyle: WebKit
 AccessModifierOffset: -4
 ConstructorInitializerIndentWidth: 4
 AlignEscapedNewlinesLeft: false
@@ -14,7 +16,7 @@ BreakBeforeBraces: Linux
 BreakBeforeTernaryOperators: false
 BreakConstructorInitializersBeforeComma: true
 BinPackParameters: true
-ColumnLimit:     0
+ColumnLimit: 0
 ConstructorInitializerAllOnOneLineOrOnePerLine: false
 DerivePointerBinding: false
 ExperimentalAutoDetectBinPacking: false
@@ -30,20 +32,6 @@ PenaltyExcessCharacter: 1000000
 PenaltyReturnTypeOnItsOwnLine: 60
 PointerBindsToType: true
 SpacesBeforeTrailingComments: 1
-Cpp11BracedListStyle: false
-Standard:        Auto
-IndentWidth:     4
-TabWidth:        4
-UseTab:          Never
-IndentCaseLabels: false
-IndentFunctionDeclarationAfterType: false
-SpacesInParentheses: false
-SpacesInAngles:  false
-SpaceInEmptyParentheses: false
-SpacesInCStyleCastParentheses: false
-SpaceAfterControlStatementKeyword: true
-SpaceBeforeAssignmentOperators: true
-ContinuationIndentWidth: 4
-PointerBindsToType: false
-...
+```
 
+我选择了返回优化后的源代码文件。
